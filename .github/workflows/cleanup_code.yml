@@ -51,3 +51,4 @@ jobs:
                     failOnIssue: 1
                     minimumSeverity: notice
                     solutionWideAnalysis: true
+                    
