@@ -1,4 +1,8 @@
+using System.Collections.Generic;
+
 namespace ReSharperCleanupCodeDemo;
+
+
 
 internal class DemoClass : IDemoInterface
 {
@@ -15,8 +19,8 @@ internal class DemoClass : IDemoInterface
         Console.WriteLine(nameof(InterfaceMethod));
 
     private int PrivateMethod() =>
-        _privateProperty;
+        _privateProperty;    
 
     public int PublicMethod() =>
-        _privateProperty;
-}
+                    _privateProperty;
+}   
